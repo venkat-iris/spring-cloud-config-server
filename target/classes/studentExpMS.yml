@@ -1,0 +1,6 @@
+stu:
+   datasource:
+      url: jdbc:mysql://localhost:3306/student_exp
+      driverclass: com.mysql.cj.jdbc.Driver
+      username: root
+      password: venkat
