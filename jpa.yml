@@ -9,8 +9,8 @@ eureka:
       defaultZone: "http://localhost://8761/eureka/"
 info:
   app:
-    name: "message"
-    description: "this app is represents messaging info.."
+    name: "jpa"
+    description: "this app is represents spring boot jpa configuration info.."
     version: 1.0
 management:
   endpoints:
