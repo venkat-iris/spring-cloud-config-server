@@ -13,7 +13,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: true
+        include: "*"
   endpoint:
     gateway:
       enabled: true
