@@ -1,3 +1,5 @@
+server:
+  port: 8787
 eureka:
   instance:
     prefer-ip-address: true
@@ -6,4 +8,20 @@ eureka:
     fetch-registry: true
     #register-with-eureka: true
     service-url:
-      defaultZone: "http://localhost:8761/eureka/" 
+      defaultZone: "http://localhost:8761/eureka/"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: true
+  endpoint:
+    gateway:
+      enabled: true
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: "gatewayserver"
+    description: "this app represent gateway configuration.."
+    version: "1.0" 
