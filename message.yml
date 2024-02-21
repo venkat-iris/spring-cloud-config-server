@@ -8,6 +8,15 @@ server:
     #active: qa
 build:
   version: 1.0
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    enabled: false
+    fetch-registry: true
+    register-with-eureka: true
+    service-url: 
+      defaultZone: "http://localhost:8761/eureka/"
 siriki:
   name: "venkat rao from default"
   education: "{cipher}370c52d979280a93ed78acfa15b4b563c6dd6fe53b5d669e879ef7910f7914c0661e834c89aa105f70c716564b6daf8c"
