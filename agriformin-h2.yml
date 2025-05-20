@@ -13,4 +13,4 @@ spring:
   properties:
    hibernate:
     format_sql: true
-welMessage: "welcome to spring cloud cource"
+welMessage: "welcome to spring cloud cource now edited for refresh"
