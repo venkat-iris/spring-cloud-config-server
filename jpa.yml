@@ -4,7 +4,7 @@ spring:
 server:
  application:
   name: "jpa"
- port: 9393
+ port: 8181
 eureka:
  instance:
   prefer-ip-address: true
