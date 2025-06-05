@@ -2,13 +2,13 @@ server:
   port: 8889
 eureka:
   instance:
-    prefer-ip-address: true
+   preferIpAddress: true
   client:
-    enabled: false
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: "http://localhost:8761/eureka/"
+   enabled: false
+   fetch-registry: true
+   register-with-eureka: true
+   service-url:
+    defaultZone: "http://localhost:8761/eureka/"
 info:
   app:
     name: "gatewayserver"
